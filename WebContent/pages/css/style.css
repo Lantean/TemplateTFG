@@ -37,7 +37,7 @@ a:hover, a:active {
 	background: url(images/bg_big_menu.jpg) no-repeat;
 	width: 900px;
 	height: 50px;
-	padding-top:10px;
+	padding-top:2px;
 }
 
 #big_menu table {
@@ -45,11 +45,11 @@ a:hover, a:active {
 }
 
 #big_menu a {
-	color: #f6ae2c;
+	color: #f8ffff;
 	font-variant: small-caps;
-	font-size: 1.3em;
-	padding: 0 30px;
-	text-decoration: none;
+	font-size: 1.4em;
+	padding: 0 25px;
+	text-decoration: inherit;
 }
 
 /***** Top_header *****/
@@ -161,7 +161,7 @@ a:hover, a:active {
 }
 
 .little_menu h1 {
-	background: url(images/bg_tittle_menu.gif) no-repeat;
+	background: url(images/bg_tittle_menu.jpg) no-repeat;
 	width: 167px;
 	height: 28px;
 	color: #3a2c16;
@@ -172,7 +172,7 @@ a:hover, a:active {
 }
 
 .little_menu ul {
-	background: url(images/bg_menu.gif) repeat-y center;
+	background: url(images/bg_menu.jpg) repeat-y center;
 	width: 145px;
 	padding: 10px 0 10px 10px;
 }
@@ -185,7 +185,7 @@ a:hover, a:active {
 }
 
 .little_menu p {
-	background: url(images/bg_menu.gif) repeat-y center;
+	background: url(images/bg_menu.jpg) repeat-y center;
 	width: 145px;
 	color: #009900;
 	padding: 10px 0 10px 10px;
@@ -226,7 +226,7 @@ h3 {
 }
 
 h2 {
-	background: url(images/pachemin1.gif) no-repeat;
+	background: url(images/pachemin1.jpg) no-repeat;
 	width: 480px;
 	height: 63px;
 	font-size: 1.2em;
@@ -237,7 +237,7 @@ h2 {
 }
 
 h5 {
-	background: url(images/parchemin2.gif) no-repeat;
+	background: url(images/parchemin2.jpg) no-repeat;
 	width: 409px;
 	height: 52px;
 	font-size: 1.1em;
@@ -299,7 +299,7 @@ h5 {
 /***** Footer *****/
 
 #footer {
-	background: url(images/bg_footer.gif) no-repeat;
+	background: url(images/bg_footer.jpg) no-repeat;
 	width: 880px;
 	height: 78px;
 	padding: 70px 10px 0 10px;
