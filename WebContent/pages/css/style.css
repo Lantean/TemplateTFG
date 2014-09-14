@@ -25,7 +25,7 @@ a:hover, a:active {
 }
 
 #frame {
-	background: url(images/frame.gif) repeat-y;
+	background: url(images/frame.jpg) repeat-y;
 	width: 1024px;
 }
 
@@ -34,7 +34,7 @@ a:hover, a:active {
 
 
 #big_menu {
-	background: url(images/bg_big_menu.gif) no-repeat;
+	background: url(images/bg_big_menu.jpg) no-repeat;
 	width: 900px;
 	height: 50px;
 	padding-top:10px;
@@ -90,12 +90,12 @@ a:hover, a:active {
 
 
 .block_header2 {
-	background: url(images/bg_block_header2.gif) no-repeat;
+	background: url(images/bg_block_header2.png) no-repeat;
 	width: 220px;
 	height: 200px;
 }
 .block_header {
-	background: url(images/bg_block_header.gif) no-repeat;
+	background: url(images/bg_block_header2.jpg) no-repeat;
 	width: 220px;
 	height: 200px;
 }
@@ -129,7 +129,7 @@ a:hover, a:active {
 
 #bottom_header_middle {
 	background: url(images/bg_bottom_header.jpg) no-repeat;
-	width: 460px;
+	width: 680px;
 	height: 200px;
 }
 
@@ -138,7 +138,7 @@ a:hover, a:active {
 
 
 #border {
-	background: url(images/middle_frame.gif) repeat-y #edd7b4;
+	background: url(images/middle_frame.jpg) repeat-y #edd7b4;
 	width: 900px;
 }
 
