@@ -89,11 +89,6 @@ a:hover, a:active {
 }
 
 
-.block_header2 {
-	background: url(images/bg_block_header2.png) no-repeat;
-	width: 220px;
-	height: 200px;
-}
 .block_header {
 	background: url(images/bg_block_header2.jpg) no-repeat;
 	width: 220px;
@@ -123,7 +118,7 @@ a:hover, a:active {
 }
 
 .block_header p , .block_header2 p {
-	margin: 3px 0 0 30px;
+	margin: 3px 0 0 35px;
 	font-size: 0.8em;
 }
 
@@ -201,10 +196,11 @@ a:hover, a:active {
 /***** Middle *****/	
 
 #middle, #middle div {
-	width: 475px;
+	width: 80%;
 }
 
 #middle {
+	margin-left: 15%;
 	margin-top: 20px;
 	float: left;
 }
@@ -245,10 +241,11 @@ h5 {
 	text-align: center;
 	line-height: 60px;
 	font-variant: small-caps;
+	margin-left: 18%;
 }
 
 #news p {
-	width: 460px;
+	width: 100%;
 	padding: 5px 5px;
 	font-size: 0.8em;
 }
@@ -309,7 +306,7 @@ h5 {
 #footer span {
 	display: block;
 	margin-top: 20px;
-	color: #FFFFFF;
+	color: #FF2222;
 	font-size: 0.7em;
 }
 
@@ -338,3 +335,11 @@ width: 90%; bottom: 0px; left: 0px; position: absolute; height: 40px;
 	-position:absolute;
 }
 
+/**** ADIÇÕES FEITAS POR WAGNER COELHO *****/
+
+#alertaIndex{
+	color: red;
+	font-size: 14px;
+	font-style: italic;
+	
+}
