@@ -343,3 +343,17 @@ width: 90%; bottom: 0px; left: 0px; position: absolute; height: 40px;
 	font-style: italic;
 	
 }
+
+/*** Headers para a página de personagens****/
+
+#topC_header {
+	background: url(images/bg_character_top_header.jpg) no-repeat;
+	width: 900px;
+	height: 300px;
+}
+
+#bottomC_header_middle {
+	background: url(images/bg_character_bottom_header.jpg) no-repeat;
+	width: 680px;
+	height: 200px;
+}
