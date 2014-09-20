@@ -308,28 +308,36 @@ width: 90%; bottom: 0px; left: 0px; position: absolute; height: 40px;
 
 #character_cirno{
 	width: 45%;
-	height: 60%;
+	
+	min-height: 450px;
 	margin: 10px;
 	padding: 10px;
 	
 	background: url(../images/CharCirno001.jpg) no-repeat;
 	
-	background-size: 45% auto ; 
+	background-size: 45% 100%; 
 }
 
 #character_detail{
-
+	margin-left: 45%;
+	max-width: 60%;
+	min-height: 90%;
 	padding-left: 10px;
 	
 }
 
 #character_detail b{
 	font-style: italic;
-	font-size: 22;
+	font-size: 22PX;
 	font-family: monospace;
 }
 
 #character_suwako{
-	background: url(../images/CharSuwako001.jpg);
-	background-size: 100% 100%;
+	width: 45%;
+	height: 450px;
+	margin: 10px;
+	padding: 10px;
+	
+	background: url(../images/CharSuwako001.jpg) no-repeat;
+	background-size: 45% 100%;
 }
