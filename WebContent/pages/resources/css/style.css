@@ -25,7 +25,7 @@ a:hover, a:active {
 }
 
 #frame {
-	background: url(images/frame.jpg) repeat-y;
+	background: url(../images/frame.jpg) repeat-y;
 	width: 1024px;
 }
 
@@ -34,7 +34,7 @@ a:hover, a:active {
 
 
 #big_menu {
-	background: url(images/bg_big_menu.jpg) no-repeat;
+	background: url(../images/bg_big_menu.jpg) no-repeat;
 	width: 900px;
 	height: 50px;
 	padding-top:2px;
@@ -55,7 +55,7 @@ a:hover, a:active {
 /***** Top_header *****/
 
 #top_header {
-	background: url(images/bg_top_header.jpg) no-repeat;
+	background: url(../images/bg_top_header.jpg) no-repeat;
 	width: 900px;
 	height: 300px;
 }
@@ -90,7 +90,7 @@ a:hover, a:active {
 
 
 .block_header {
-	background: url(images/bg_block_header2.jpg) no-repeat;
+	background: url(../images/bg_block_header2.jpg) no-repeat;
 	width: 220px;
 	height: 200px;
 }
@@ -123,7 +123,7 @@ a:hover, a:active {
 }
 
 #bottom_header_middle {
-	background: url(images/bg_bottom_header.jpg) no-repeat;
+	background: url(../images/bg_bottom_header.jpg) no-repeat;
 	width: 680px;
 	height: 200px;
 }
@@ -133,7 +133,7 @@ a:hover, a:active {
 
 
 #border {
-	background: url(images/middle_frame.jpg) repeat-y #edd7b4;
+	background: url(../images/middle_frame.jpg) repeat-y #edd7b4;
 	width: 900px;
 }
 
@@ -141,66 +141,14 @@ a:hover, a:active {
 	float: left;
 }
 
-/**** Left and right Menu *****/
-
-
-.little_menu {
-	width: 190px;
-	float: left;
-	margin: 20px 0 20px 10px !important;
-	margin: 20px 0 20px 5px;
-}
-
-.little_menu div {
-	margin-bottom: 20px;
-}
-
-.little_menu h1 {
-	background: url(images/bg_tittle_menu.jpg) no-repeat;
-	width: 167px;
-	height: 28px;
-	color: #3a2c16;
-	font-size: 1em;
-	font-weight: bold;
-	padding-left: 20px;
-	line-height: 30px;
-}
-
-.little_menu ul {
-	background: url(images/bg_menu.jpg) repeat-y center;
-	width: 145px;
-	padding: 10px 0 10px 10px;
-}
-
-.little_menu li {
-	list-style: url(images/puce.gif);
-	margin-left: 20px;
-	font-size: 0.8em;
-	padding-bottom: 5px;
-}
-
-.little_menu p {
-	background: url(images/bg_menu.jpg) repeat-y center;
-	width: 145px;
-	color: #009900;
-	padding: 10px 0 10px 10px;
-	font-size: 0.8em;
-}
-
-.little_menu em {
-	color: #663333;
-	text-decoration: underline;
-	font-size: 1em;
-}
-
 /***** Middle *****/	
 
 #middle, #middle div {
-	width: 80%;
+	width: 95%;
 }
 
 #middle {
-	margin-left: 15%;
+	margin-left: 5%;
 	margin-top: 20px;
 	float: left;
 }
@@ -222,7 +170,7 @@ h3 {
 }
 
 h2 {
-	background: url(images/pachemin1.jpg) no-repeat;
+	background: url(../images/pachemin1.jpg) no-repeat;
 	width: 480px;
 	height: 63px;
 	font-size: 1.2em;
@@ -233,7 +181,7 @@ h2 {
 }
 
 h5 {
-	background: url(images/parchemin2.jpg) no-repeat;
+	background: url(../images/parchemin2.jpg) no-repeat;
 	width: 409px;
 	height: 52px;
 	font-size: 1.1em;
@@ -296,7 +244,7 @@ h5 {
 /***** Footer *****/
 
 #footer {
-	background: url(images/bg_footer.jpg) no-repeat;
+	background: url(../images/bg_footer.jpg) no-repeat;
 	width: 880px;
 	height: 78px;
 	padding: 70px 10px 0 10px;
@@ -347,17 +295,41 @@ width: 90%; bottom: 0px; left: 0px; position: absolute; height: 40px;
 /*** Headers para a página de personagens****/
 
 #topC_header {
-	background: url(images/bg_character_top_header.jpg) no-repeat;
+	background: url(../images/bg_character_top_header.jpg) no-repeat;
 	width: 900px;
 	height: 300px;
 }
 
 #bottomC_header_middle {
-	background: url(images/bg_character_bottom_header.jpg) no-repeat;
+	background: url(../images/bg_character_bottom_header.jpg) no-repeat;
 	width: 680px;
 	height: 200px;
 }
 
 #character_cirno{
-	background: url()
+	width: 45%;
+	height: 60%;
+	margin: 10px;
+	padding: 10px;
+	
+	background: url(../images/CharCirno001.jpg) no-repeat;
+	
+	background-size: 45% auto ; 
+}
+
+#character_detail{
+
+	padding-left: 10px;
+	
+}
+
+#character_detail b{
+	font-style: italic;
+	font-size: 22;
+	font-family: monospace;
+}
+
+#character_suwako{
+	background: url(../images/CharSuwako001.jpg);
+	background-size: 100% 100%;
 }
