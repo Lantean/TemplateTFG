@@ -341,3 +341,17 @@ width: 90%; bottom: 0px; left: 0px; position: absolute; height: 40px;
 	background: url(../images/CharSuwako001.jpg) no-repeat;
 	background-size: 45% 100%;
 }
+
+#picture {
+	width: 80%;
+	height: 50%;
+	
+	float: left;
+}
+
+#picture img{
+	margin-left: 16%;
+	float: left;
+	padding-bottom: 10px;	
+}
+
